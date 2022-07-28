@@ -21,6 +21,7 @@
     "sonarjs",
     "react-func"
   ],
+  "ignorePatterns": ["cypress/*"], 
   "rules": {
     "indent": [
       "error",
