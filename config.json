@@ -1,7 +1,7 @@
 {
   "env": {
     "browser": true,
-    "es2020": true
+    "es2022": true
   },
   "extends": [
     "plugin:react/recommended",
@@ -12,6 +12,7 @@
     "ecmaFeatures": {
       "jsx": true
     },
+    "ecmaVersion": 2022,
     "sourceType": "module"
   },
   "plugins": [
