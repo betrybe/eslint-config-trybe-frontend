@@ -1,4 +1,4 @@
-# eslint-config-trybe-frontend
+# ESLint Config Trybe
 
 Configurações utilizadas pela Trybe em projetos Front-End!
 
@@ -7,7 +7,7 @@ Configurações utilizadas pela Trybe em projetos Front-End!
 basta instalar através do npm (ou gerenciador favorito):
 
 ```shell
-npm i eslint-config-trybe-frontend
+npm i @trybe/eslint-config-frontend
 ```
 
 ## Uso
@@ -17,7 +17,7 @@ Basta adicionar no seu `.eslintrc.json`:
 ```javascript
 {
   // ...
-  "extends": "trybe-frontend"
+  "extends": "@trybe/eslint-config-frontend"
   // ...
 }
 ```
