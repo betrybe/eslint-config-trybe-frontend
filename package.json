@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-trybe-frontend",
+  "name": "@trybe/eslint-config-frontend",
   "version": "1.5.0",
   "description": "ESLint shared config used by Trybe on frontend projects",
   "main": "config.json",
