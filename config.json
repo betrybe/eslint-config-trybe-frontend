@@ -25,7 +25,7 @@
   "ignorePatterns": ["cypress/*"],
   "rules": {
     "jsx-a11y/label-has-associated-control": [
-      2,
+      "error",
       {
         "assert": "either"
       }
