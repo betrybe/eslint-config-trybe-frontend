@@ -1,7 +1,7 @@
 {
-  "name": "@trybe/eslint-config-frontend",
-  "version": "1.5.1",
-  "description": "ESLint shared config used by Trybe on frontend projects",
+  "name": "eslint-config-trybe-frontend",
+  "version": "1.7.0",
+  "description": "Configurações do ESLint da Trybe",
   "main": "config.json",
   "keywords": [
     "eslint",
