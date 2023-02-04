@@ -1,8 +1,8 @@
 {
   "name": "@trybe/eslint-config-frontend",
-  "version": "1.7.1",
+  "version": "1.9.0-alpha.0",
   "description": "Configurações do ESLint da Trybe",
-  "main": "config.json",
+  "main": "index.js",
   "keywords": [
     "eslint",
     "trybe",
@@ -31,5 +31,11 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-redux": "^4.0.0",
     "eslint-plugin-sonarjs": "^0.18.0"
+  },
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint-config-airbnb-typescript": "^17.0.0"
   }
 }
