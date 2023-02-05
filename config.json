@@ -28,7 +28,8 @@
 
       "rules": {
         "no-magic-numbers": ["off"],
-        "max-len": ["off"]
+        "max-len": ["off"],
+        "max-lines": ["off"]
       }
     }
   ],
