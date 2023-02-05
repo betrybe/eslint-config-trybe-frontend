@@ -25,7 +25,6 @@
         "*.test.ts",
         "*.test.tsx"
       ],
-
       "rules": {
         "no-magic-numbers": ["off"],
         "max-len": ["off"],
