@@ -1,6 +1,6 @@
 {
   "name": "@trybe/eslint-config-frontend",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "Configurações do ESLint da Trybe",
   "main": "config.json",
   "homepage": "https://github.com/betrybe/eslint-config-trybe-frontend#readme",
