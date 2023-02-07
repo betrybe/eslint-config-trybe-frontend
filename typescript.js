@@ -9,7 +9,12 @@ module.exports = {
   parserOptions: {
     project: './tsconfig.json',
   },
-  ignorePatterns: ['**/*.config.js', '**/*.config.ts', '**/*.html'],
+  ignorePatterns: [
+    '**/*.config.js',
+    '**/*.config.ts',
+    '**/*.html',
+    '**/setupTests.js',
+  ],
   plugins: ['@typescript-eslint'],
   rules: {
     'no-shadow': 'off', // TS já faz isso
