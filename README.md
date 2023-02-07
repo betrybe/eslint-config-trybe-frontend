@@ -10,7 +10,7 @@ basta instalar através do npm (ou gerenciador favorito):
 npm i @trybe/eslint-config-frontend
 ```
 
-## Uso
+## Uso - Projeto Javascript
 
 Basta adicionar no seu `.eslintrc.json`:
 
@@ -22,13 +22,18 @@ Basta adicionar no seu `.eslintrc.json`:
 }
 ```
 
-## Possíveis problemas
+## Uso - Projeto Typescript
 
-Eventualmente pode ser necessário que você instale manualmente as `peerDependencies`.
-Se esse for o caso, basta rodar o comando:
+Basta adicionar no seu `.eslintrc.json`:
 
-```shell
-npx install-peerdeps --dev eslint-config-trybe-frontend
+```javascript
+{
+  // ...
+  "extends": "@trybe/eslint-config-frontend/typescript"
+  // ...
+}
 ```
 
-Isso deverá resolver o problema. Qualquer coisa, abra uma issue que ficaremos felizes em resolver :)
+## Possíveis problemas
+
+Quaisquer problemas, abra uma issue que ficaremos felizes em resolver :)
