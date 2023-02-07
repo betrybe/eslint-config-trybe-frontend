@@ -9,8 +9,8 @@ module.exports = {
   parserOptions: {
     project: './tsconfig.json',
   },
+  ignorePatterns: ['**/*.config.js', '**/*.config.ts', '**/*.html'],
   plugins: ['@typescript-eslint'],
-
   rules: {
     'no-shadow': 'off', // TS já faz isso
     'no-undef': 'off', // TS já faz isso
