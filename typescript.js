@@ -14,6 +14,7 @@ module.exports = {
     '**/*.config.ts',
     '**/*.html',
     '**/setupTests.js',
+    '**/setupTests.ts',
   ],
   plugins: ['@typescript-eslint'],
   rules: {
