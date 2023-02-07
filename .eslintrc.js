@@ -16,6 +16,25 @@ module.exports = {
   },
   plugins: ['react', 'react-redux', 'react-hooks', 'sonarjs', 'react-func'],
   ignorePatterns: ['cypress/*'],
+  overrides: [
+    {
+      files: [
+        '*.spec.js',
+        '*.spec.jsx',
+        '*.test.js',
+        '*.test.jsx',
+        '*.spec.ts',
+        '*.spec.tsx',
+        '*.test.ts',
+        '*.test.tsx',
+      ],
+      rules: {
+        'no-magic-numbers': ['off'],
+        'max-len': ['off'],
+        'max-lines': ['off'],
+      },
+    },
+  ],
   rules: {
     indent: ['error', 2],
     'linebreak-style': 0,
