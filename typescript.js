@@ -26,5 +26,6 @@ module.exports = {
     '@typescript-eslint/no-redeclare': [1, { ignoreDeclarationMerge: true }],
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
+    'import/extensions': 'off',
   },
 };
