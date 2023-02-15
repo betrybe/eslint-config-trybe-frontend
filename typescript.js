@@ -27,5 +27,9 @@ module.exports = {
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
     'import/extensions': 'off',
+    'react/prop-types': 'off',
+    'react/default-props-match-prop-types': 'off',
+    'react/forbid-prop-types': 'off',
+    'react-redux/no-unused-prop-types': 'off',
   },
 };
