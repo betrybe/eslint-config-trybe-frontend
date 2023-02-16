@@ -1,6 +1,6 @@
 # ESLint Config Trybe
 
-Configurações utilizadas pela Trybe em projetos Front-End!
+Configurações utilizadas pela Trybe em projetos Front-End!!
 
 ## Instalação
 
