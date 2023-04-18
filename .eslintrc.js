@@ -41,6 +41,7 @@ module.exports = {
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
     'class-methods-use-this': ['off'],
+    "no-plusplus": ["off"],
     'no-underscore-dangle': [
       'error',
       {

@@ -17,6 +17,7 @@ module.exports = {
   ],
   plugins: ['@typescript-eslint'],
   rules: {
+    "no-plusplus": ["off"],
     'no-shadow': 'off', // TS já faz isso
     'no-undef': 'off', // TS já faz isso
     '@typescript-eslint/no-explicit-any': 'off',
