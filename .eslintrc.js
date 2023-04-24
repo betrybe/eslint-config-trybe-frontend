@@ -38,7 +38,6 @@ module.exports = {
   rules: {
     "arrow-body-style": ["off"],
     "default-param-last": "off",
-    "@typescript-eslint/default-param-last": "off",
     indent: ['error', 2],
     'linebreak-style': 0,
     quotes: ['error', 'single'],

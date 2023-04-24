@@ -21,6 +21,7 @@ module.exports = {
     'no-shadow': 'off', // TS já faz isso
     'no-undef': 'off', // TS já faz isso
     '@typescript-eslint/no-explicit-any': 'off',
+    "@typescript-eslint/default-param-last": "off",
     'no-unused-vars': 0,
     '@typescript-eslint/no-unused-vars': [1, { ignoreRestSiblings: true }], // Para evitar 2 warnings de variáveis não usadas
     'no-redeclare': 'off', // serve para function overloading no TS uso aqui: https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/no-redeclare.md
