@@ -17,6 +17,7 @@ module.exports = {
   ],
   plugins: ['@typescript-eslint'],
   rules: {
+    "import/no-extraneous-dependencies": "off",
     "no-plusplus": ["off"],
     'no-shadow': 'off', // TS já faz isso
     'no-undef': 'off', // TS já faz isso
