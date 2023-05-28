@@ -17,6 +17,7 @@ module.exports = {
   ],
   plugins: ['@typescript-eslint'],
   rules: {
+    "react/jsx-no-constructed-context-values": "off",
     "import/no-extraneous-dependencies": "off",
     "no-plusplus": ["off"],
     'no-shadow': 'off', // TS já faz isso
