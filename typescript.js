@@ -31,6 +31,7 @@ module.exports = {
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
     'import/extensions': 'off',
-    "import/no-unresolved": [2, { "caseSensitiveStrict": true }]
+    "import/no-unresolved": [2, { "caseSensitiveStrict": true }],
+    "react/prop-types": "off",
   },
 };
